@@ -15,4 +15,4 @@ def register_models():
     # ref https://github.com/lmstudio-ai/mlx-engine/issues/211
     AutoTokenizer.register(Ernie4_5_Config, Ernie4_5_Tokenizer, exist_ok=True)
     AutoTokenizer.register(Ernie4_5_MoeConfig, Ernie4_5_Tokenizer, exist_ok=True)
-    AutoProcessor.register(Lfm2VlConfig, Lfm2VlProcessor, exist_ok=False)
+    AutoProcessor.register(Lfm2VlConfig, Lfm2VlProcessor, exist_ok=True)
